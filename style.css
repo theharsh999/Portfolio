@@ -68,6 +68,27 @@ button:hover, a.button:hover {
   transform: scale(1.05);
 }
 
+.resume-button {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.resume-button a {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.resume-button a:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
 .contact-icons {
   text-align: center;
   margin: 40px 0 10px 0;
